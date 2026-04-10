@@ -8,10 +8,11 @@ function Main() {
       <div className="about-section">
         <div className="image-wrapper">
           <img
-  src={`${process.env.PUBLIC_URL}/samantha-hero.jpg`}
-  alt="Samantha Blanco"
-/>
+            src={`${process.env.PUBLIC_URL}/samantha-hero.jpg`}
+            alt="Samantha Blanco"
+          />
         </div>
+
         <div className="content">
           <div className="social_icons">
             <a
@@ -23,7 +24,7 @@ function Main() {
             </a>
           </div>
 
-          <h1>Samantha Carolina Blanco Isea</h1>
+          <h1>Samantha Blanco </h1>
           <p>Electrical Engineering Graduate Student | Electronic Engineer</p>
 
           <div className="mobile_social_icons">
