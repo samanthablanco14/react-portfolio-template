@@ -7,7 +7,10 @@ function Main() {
     <div className="container">
       <div className="about-section">
         <div className="image-wrapper">
-          <img src="/samantha-hero.jpg" alt="Samantha Blanco" />
+          <img
+  src={`${process.env.PUBLIC_URL}/samantha-hero.jpg`}
+  alt="Samantha Blanco"
+/>
         </div>
         <div className="content">
           <div className="social_icons">
