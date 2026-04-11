@@ -17,7 +17,10 @@ function Contact() {
           </p>
 
           <div className="contact-links">
-            <a href="mailto:blanco.samantha@outlook.com" className="contact-link">
+            <a
+              href="mailto:blanco.samantha@outlook.com"
+              className="contact-link"
+            >
               <EmailIcon />
               <span>blanco.samantha@outlook.com</span>
             </a>
@@ -38,7 +41,7 @@ function Contact() {
             </a>
 
             <a
-              href="/resume-samantha-blanco.pdf"
+              href={`${process.env.PUBLIC_URL}/resume-samantha-blanco.pdf`}
               target="_blank"
               rel="noreferrer"
               className="contact-link"
