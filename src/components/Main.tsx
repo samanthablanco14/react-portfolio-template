@@ -5,14 +5,12 @@ import "../assets/styles/Main.scss";
 function Main() {
   return (
     <div className="container">
-      <div className="about-section">
-        <div className="image-wrapper">
-          <img
-            src={`${process.env.PUBLIC_URL}/samantha-hero.jpg`}
-            alt="Samantha Blanco"
-          />
-        </div>
-
+      <div
+        className="about-section"
+        style={{
+          backgroundImage: `linear-gradient(rgba(247, 241, 245, 0.18), rgba(247, 241, 245, 0.18)), url(${process.env.PUBLIC_URL}/hero-bg.png)`,
+        }}
+      >
         <div className="content">
           <div className="social_icons">
             <a
@@ -24,7 +22,7 @@ function Main() {
             </a>
           </div>
 
-          <h1>Samantha Blanco </h1>
+          <h1>Samantha Blanco</h1>
           <p>Electrical Engineering Graduate Student | Electronic Engineer</p>
 
           <div className="mobile_social_icons">
@@ -36,6 +34,13 @@ function Main() {
               <LinkedInIcon />
             </a>
           </div>
+        </div>
+
+        <div className="image-wrapper">
+          <img
+            src={`${process.env.PUBLIC_URL}/samantha-hero.jpg`}
+            alt="Samantha Blanco"
+          />
         </div>
       </div>
     </div>
