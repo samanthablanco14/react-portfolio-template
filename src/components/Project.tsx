@@ -5,6 +5,7 @@ function Project() {
   return (
     <div className="projects-container" id="projects">
       <h1>Teaching Portfolio</h1>
+
       <div className="projects-grid">
         <div className="project">
           <a
