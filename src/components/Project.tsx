@@ -7,7 +7,11 @@ function Project() {
       <h1>Teaching Portfolio</h1>
       <div className="projects-grid">
         <div className="project">
-          <a href="/philosophy-of-learning.pdf" target="_blank" rel="noreferrer">
+          <a
+            href={`${process.env.PUBLIC_URL}/philosophy-of-learning.pdf`}
+            target="_blank"
+            rel="noreferrer"
+          >
             <h2>Philosophy of Learning</h2>
           </a>
           <p>
@@ -18,7 +22,11 @@ function Project() {
         </div>
 
         <div className="project">
-          <a href="/teaching-philosophy.pdf" target="_blank" rel="noreferrer">
+          <a
+            href={`${process.env.PUBLIC_URL}/teaching-philosophy.pdf`}
+            target="_blank"
+            rel="noreferrer"
+          >
             <h2>Teaching Philosophy</h2>
           </a>
           <p>
@@ -32,7 +40,11 @@ function Project() {
         </div>
 
         <div className="project">
-          <a href="/final-lesson-plan.pdf" target="_blank" rel="noreferrer">
+          <a
+            href={`${process.env.PUBLIC_URL}/final-lesson-plan.pdf`}
+            target="_blank"
+            rel="noreferrer"
+          >
             <h2>Lesson Plan Documents I & II</h2>
           </a>
           <p>
@@ -43,7 +55,7 @@ function Project() {
 
         <div className="project">
           <a
-            href="/teaching-event-artifacts.pdf"
+            href={`${process.env.PUBLIC_URL}/teaching-event-artifacts.pdf`}
             target="_blank"
             rel="noreferrer"
           >
@@ -57,7 +69,7 @@ function Project() {
 
         <div className="project">
           <a
-            href="/teaching-event-assessment.pdf"
+            href={`${process.env.PUBLIC_URL}/teaching-event-assessment.pdf`}
             target="_blank"
             rel="noreferrer"
           >
@@ -71,7 +83,7 @@ function Project() {
 
         <div className="project">
           <a
-            href="/reflection-on-the-process.pdf"
+            href={`${process.env.PUBLIC_URL}/reflection-on-the-process.pdf`}
             target="_blank"
             rel="noreferrer"
           >
