@@ -14,25 +14,27 @@
 }
 
 .project {
-  background: #e9e9e9;
-  border-radius: 16px;
+  background: #fbf8fb;
+  border: 1px solid #eadff0;
+  border-radius: 18px;
   padding: 1.75rem;
   text-align: left;
   transition: 0.3s ease;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 14px rgba(124, 106, 138, 0.08);
 }
 
 .project:hover {
   transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(124, 106, 138, 0.12);
 }
 
 .project h2 {
   margin-bottom: 0.9rem;
-  color: #1f1f1f;
+  color: #5c4e68;
 }
 
 .project p {
-  color: #3a3a3a;
+  color: #6f6478;
   line-height: 1.7;
   margin: 0;
 }
@@ -42,7 +44,7 @@
 }
 
 .project a h2:hover {
-  color: #5000ca;
+  color: #a27acb;
 }
 
 @media (max-width: 900px) {
