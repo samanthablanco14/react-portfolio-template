@@ -1,22 +1,21 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 1.1rem !important;
+  background-color: #f7f1f5;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace !important;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace !important;
   font-size: 1rem !important;
 }
 
 .main-container {
   position: relative;
-  background-color: #0d1116;
-
+  background-color: #f7f1f5;
 }
 
 a {
@@ -24,34 +23,57 @@ a {
 }
 
 a:hover {
-  color: #5000ca;
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  color: #a27acb;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
 }
 
-p, a, h1, h2, h3, h4, h5, label, button {
-  color: white;
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+label,
+button,
+span {
+  color: #4e4457;
   font-family: "Lato", sans-serif;
 }
 
 .navigation-bar {
   justify-content: space-between;
-  background-color: #0d1116;
+  background-color: rgba(247, 241, 245, 0.92);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 10px rgba(162, 122, 203, 0.08);
 
   button {
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     font-family: "Lato", sans-serif;
     text-transform: initial;
     padding: 6px 10px;
+    color: #4e4457;
+  }
+
+  button:hover {
+    color: #a27acb;
+    background-color: rgba(162, 122, 203, 0.08);
+    border-radius: 8px;
   }
 
   svg {
     cursor: pointer;
+    color: #7c6a8a;
   }
 }
 
 .navigation-bar-responsive {
-  span, p {
-    color: #0d1116;
+  background-color: #fbf8fb;
+
+  span,
+  p {
+    color: #4e4457;
     font-family: "Lato", sans-serif;
   }
 }
@@ -93,56 +115,72 @@ p, a, h1, h2, h3, h4, h5, label, button {
 }
 
 .light-mode {
-  background-color: #f8f9fa;
+  background-color: #f7f1f5;
 
   .navigation-bar {
-    background-color: #f8f9fa;
+    background-color: rgba(247, 241, 245, 0.92);
   }
 
-  p, a, h1, h2, h3, h4, h5, label, button {
-    color: #0d1116;
+  p,
+  a,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  label,
+  button,
+  span {
+    color: #4e4457;
   }
 
   a:hover {
-    color: #5000ca;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    color: #a27acb;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out;
   }
 
   .navigation-bar svg {
-    color: #0d1116;
+    color: #7c6a8a;
   }
 
   .about-section {
-    background-image: url("./assets/images/bg-light.png");
+    background: linear-gradient(180deg, #f8f3f7 0%, #f3ecf4 100%);
   }
 
   .skills-container svg {
-    color: #0d1116;
+    color: #8e72b2;
   }
 
   .chip {
-    background-color: rgba(0, 0, 0, 0.08);
-    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    background-color: #efe6f4 !important;
+    color: #5c4e68 !important;
+    border: 1px solid #e1d2ea !important;
+    box-shadow: none !important;
   }
 
   .vertical-timeline::before {
-    background-color: rgba(0, 0, 0, 0.08);
+    background-color: #e2d8e8;
   }
 
   .vertical-timeline--animate .vertical-timeline-element-content.bounce-in {
-    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    background-color: #fbf8fb;
+    box-shadow: 0 4px 16px rgba(124, 106, 138, 0.08);
+    border: 1px solid #eadff0;
   }
 
-  .vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
-    color: gray;
+  .vertical-timeline--two-columns
+    .vertical-timeline-element-content
+    .vertical-timeline-element-date {
+    color: #8d8196;
   }
 
   .vertical-timeline-element-content-arrow {
-    border-right: 7px solid rgba(0, 0, 0, 0.08) !important;
+    border-right: 7px solid #fbf8fb !important;
   }
 
   .flex-chips .chip-title {
-    color: #0d1116;
+    color: #5c4e68;
   }
 }
 
