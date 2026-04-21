@@ -8,92 +8,101 @@ function Project() {
 
       <div className="projects-grid">
         <div className="project">
-          <a
-            href={`${process.env.PUBLIC_URL}/philosophy-of-learning.pdf`}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <h2>Philosophy of Learning</h2>
-          </a>
+          <h2>Philosophy of Learning</h2>
           <p>
             Statement reflecting my perspective on how meaningful learning
-            happens and how students build understanding through engagement,
-            reflection, and application.
+            happens and how students build understanding.
           </p>
+          <div className="project-buttons">
+            <a
+              href={`${process.env.PUBLIC_URL}/philosophy-of-learning.pdf`}
+              target="_blank"
+              rel="noreferrer"
+              className="project-btn"
+            >
+              View Document
+            </a>
+          </div>
         </div>
 
         <div className="project">
-          <a
-            href={`${process.env.PUBLIC_URL}/teaching-philosophy.pdf`}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <h2>Teaching Philosophy</h2>
-          </a>
+          <h2>Teaching Philosophy</h2>
           <p>
-            I believe meaningful learning happens when students can connect
-            ideas to real problems, reflect on their thinking, and actively
-            engage with the learning process. In engineering education, this
-            means creating opportunities for students to move beyond
-            memorization and instead develop understanding through application,
-            discussion, and purposeful problem solving.
+            Statement reflecting my perspective on how meaningful teaching
+            happens and how it shapes my lesson designs.
           </p>
+          <div className="project-buttons">
+            <a
+              href={`${process.env.PUBLIC_URL}/teaching-philosophy.pdf`}
+              target="_blank"
+              rel="noreferrer"
+              className="project-btn"
+            >
+              View Document
+            </a>
+          </div>
         </div>
 
         <div className="project">
-          <a
-            href={`${process.env.PUBLIC_URL}/final-lesson-plan.pdf`}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <h2>Lesson Plan Documents I & II</h2>
-          </a>
+          <h2>Final Lesson Plan</h2>
           <p>
-            Final lesson plan materials developed as part of my teaching and
-            learning portfolio.
+            Final lesson plan on Introduction to Automation developed as part of
+            my attended course Foundations of Engineering and Computing Teaching
+            and Learning.
           </p>
+          <div className="project-buttons">
+            <a
+              href={`${process.env.PUBLIC_URL}/final-lesson-plan.pdf`}
+              target="_blank"
+              rel="noreferrer"
+              className="project-btn"
+            >
+              View Document
+            </a>
+          </div>
         </div>
 
         <div className="project">
-          <a
-            href={`${process.env.PUBLIC_URL}/teaching-event-artifacts.pdf`}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <h2>Artifacts from the Teaching Event</h2>
-          </a>
+          <h2>Artifacts from the Teaching Event</h2>
           <p>
             Supporting materials, resources, and artifacts created for the
             teaching event.
           </p>
+          <div className="project-buttons multi-buttons">
+            <a
+              href={`${process.env.PUBLIC_URL}/assessment-artifact.pdf`}
+              target="_blank"
+              rel="noreferrer"
+              className="project-btn"
+            >
+              View Assessment
+            </a>
+            <a
+              href={`${process.env.PUBLIC_URL}/teaching-slides.pdf`}
+              target="_blank"
+              rel="noreferrer"
+              className="project-btn"
+            >
+              View Presentation
+            </a>
+          </div>
         </div>
 
         <div className="project">
-          <a
-            href={`${process.env.PUBLIC_URL}/teaching-event-assessment.pdf`}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <h2>Assessment of the Teaching Event</h2>
-          </a>
+          <h2>Reflections of the Teaching Event</h2>
           <p>
-            Assessment materials and evaluation components related to the
-            teaching event.
+            Reflection on what the experience meant to me and what I learned.
           </p>
-        </div>
-
-        <div className="project">
-          <a
-            href={`${process.env.PUBLIC_URL}/reflection-on-the-process.pdf`}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <h2>Reflections on the Process</h2>
-          </a>
-          <p>
-            Reflection on what the experience meant to me and what I learned
-            throughout the semester.
-          </p>
+          <div className="project-buttons">
+            <a
+              href={`${process.env.PUBLIC_URL}/reflection-on-the-process.pdf`}
+              target="_blank"
+              rel="noreferrer"
+              className="project-btn"
+            >
+              View Document
+            </a>
+          </div>
         </div>
       </div>
     </div>
