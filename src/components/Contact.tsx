@@ -2,7 +2,6 @@ import React from "react";
 import "../assets/styles/Contact.scss";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
-import PhoneIcon from "@mui/icons-material/Phone";
 import DescriptionIcon from "@mui/icons-material/Description";
 
 function Contact() {
@@ -22,12 +21,7 @@ function Contact() {
               className="contact-link"
             >
               <EmailIcon />
-              <span>blanco.samantha@outlook.com</span>
-            </a>
-
-            <a href="tel:+13052156488" className="contact-link">
-              <PhoneIcon />
-              <span>+1 (305) 215-6488</span>
+              <span>Email Me</span>
             </a>
 
             <a
